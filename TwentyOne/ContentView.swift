@@ -96,6 +96,7 @@ struct ContentView: View {
             
             Spacer()
             
+            Text("Deck: \(cards.count) cards left)")
             ScrollView {
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 70))]) {
                     ForEach(cards) { card in

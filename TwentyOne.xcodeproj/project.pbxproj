@@ -6,8 +6,13 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3E9D6E5930A21CB600AA05D1 /* AGENTS.md in Resources */ = {isa = PBXBuildFile; fileRef = 3E9D6E5830A21CB600AA05D1 /* AGENTS.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3E3F771930A1FBB100A47A16 /* TwentyOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwentyOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9D6E5830A21CB600AA05D1 /* AGENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AGENTS.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -30,6 +35,7 @@
 		3E3F771030A1FBB100A47A16 = {
 			isa = PBXGroup;
 			children = (
+				3E9D6E5830A21CB600AA05D1 /* AGENTS.md */,
 				3E3F771B30A1FBB100A47A16 /* TwentyOne */,
 				3E3F771A30A1FBB100A47A16 /* Products */,
 			);
@@ -102,6 +108,7 @@
 		3E3F771730A1FBB100A47A16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				3E9D6E5930A21CB600AA05D1 /* AGENTS.md in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
